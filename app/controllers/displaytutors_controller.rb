@@ -1,0 +1,2 @@
+class DisplaytutorsController < ApplicationController
+end

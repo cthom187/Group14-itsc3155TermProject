@@ -1,0 +1,2 @@
+class TutorController < ApplicationController
+end
