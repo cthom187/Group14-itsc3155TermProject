@@ -1,2 +1,0 @@
-class CompSciController < ApplicationController
-end

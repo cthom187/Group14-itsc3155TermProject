@@ -1,2 +1,0 @@
-class MathController < ApplicationController
-end
