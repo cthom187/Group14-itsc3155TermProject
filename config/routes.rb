@@ -5,5 +5,7 @@ Rails.application.routes.draw do
   resources :mathclasses
   resources :compsciclasses
   
+  get '/math', to: 'mathclasses#show'  
+  get '/compsci', to: 'compsciclasses#show' 
 
 end

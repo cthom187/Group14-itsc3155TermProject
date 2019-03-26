@@ -1,14 +1,6 @@
 <h1>Niner Tutor</h1>
 
-    <div class="container-fluid" id="columns">
-      <div class="row" id="row1">
-        <!--------------------------Start of div for Subjects---------------->
-        <div class="col-2" id="subjects">
-          <div>
-            <% link_to 'Math', controller: 'mathclasses' %>
-          </div>
-          <div>
-            <a href="CompSci.html" id="compsci">Computer Science</a>
-          </div>
-        </div>
-        <!--------------------------End of Div for classes---------------->
+<ul>
+  <li><%= link_to 'Math', '/math' %></li>
+  <li><%= link_to 'Comp Sci', '/compsci' %></li>
+</ul>  
