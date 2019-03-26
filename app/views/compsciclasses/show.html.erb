@@ -1,16 +1,1 @@
 <h1>Comp Sci Classes Show</h1>
-<%= link_to 'Back', controller: 'welcome' %>
-<p></p>
-<table>
-    <tr>
-        <th>Subject</th>
-        <th>Course</th>
-    </tr>
-    
-    <% @compsciclasses.each do |c| %>
-        <tr>
-            <td><%= c.subject %></td>
-            <td><%= c.course %></td>
-        </tr>
-    <% end %>
-</table>

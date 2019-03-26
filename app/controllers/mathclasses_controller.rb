@@ -3,7 +3,7 @@ class MathclassesController < ApplicationController
         @mathclasses = MathClass.all
     end
     def show
-        @mathclasses = MathClass.all
+       @mathclass = MathClass.find(params[:mathclass])
     end
    
 end

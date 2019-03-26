@@ -1,18 +1,8 @@
 <h1>mathclasses show</h1>
-
-<h1>Math Classes</h1>
-<%= link_to 'Back', controller: 'welcome' %>
-<p></p>
-<table>
-    <tr>
-        <th>Subject</th>
-        <th>Course</th>
-    </tr>
-    
-    <% @mathclasses.each do |m| %>
-        <tr>
-            <td><%= m.subject %></td>
-            <td><%= m.course %></td>
-        </tr>
-    <% end %>
-</table>
+<p>
+    <strong>Subject:</strong>
+    <%= @mathclass.subject %%>
+</p>
+<p> <strong>Course:</strong>
+    <%= @mathclass.course %>
+</p> 

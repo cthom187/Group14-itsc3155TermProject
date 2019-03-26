@@ -3,6 +3,6 @@ class CompsciclassesController < ApplicationController
         @compsciclasses = CompSciClass.all
     end
     def show
-        @compsciclasses = CompSciClass.all
+        
     end
 end
