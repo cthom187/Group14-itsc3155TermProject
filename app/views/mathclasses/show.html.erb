@@ -1,8 +1,9 @@
 <h1>mathclasses show</h1>
-<p>
-    <strong>Subject:</strong>
-    <%= @mathclass.subject %%>
-</p>
-<p> <strong>Course:</strong>
-    <%= @mathclass.course %>
-</p> 
+
+<%= link_to 'Back', controller: 'mathclasses' %>
+
+<h2>Times For <strong><%= @mathclass.course %></strong></h2>
+
+<table>
+    <td>time 1, time 2, time 3</td>
+</table>

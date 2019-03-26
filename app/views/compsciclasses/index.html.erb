@@ -1,16 +1,16 @@
 <h1>Comp Sci Classes Index</h1>
 <%= link_to 'Back', controller: 'welcome' %>
 <p></p>
+
 <table>
     <tr>
-        <th>Subject</th>
         <th>Course</th>
     </tr>
     
     <% @compsciclasses.each do |c| %>
         <tr>
-            <td><%= c.subject %></td>
             <td><%= c.course %></td>
+            <td><%= link_to 'Show Availability', compsciclass_path(c) %> </td>
         </tr>
     <% end %>
 </table>

@@ -1,16 +1,16 @@
 <h1>Math Classes Index</h1>
 <%= link_to 'Back', controller: 'welcome' %>
 <p></p>
+
 <table>
     <tr>
-        <th>Subject</th>
         <th>Course</th>
     </tr>
     
     <% @mathclasses.each do |m| %>
         <tr>
-            <td><%= m.subject %></td>
             <td><%= m.course %></td>
+            <td><%= link_to 'Show Availability', mathclass_path(m) %> </td>
         </tr>
     <% end %>
 </table>
