@@ -1,2 +1,0 @@
-class TutorScheduleController < ApplicationController
-end
