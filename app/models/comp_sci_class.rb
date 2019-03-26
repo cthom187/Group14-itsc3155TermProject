@@ -1,0 +1,2 @@
+class CompSciClass < ApplicationRecord
+end

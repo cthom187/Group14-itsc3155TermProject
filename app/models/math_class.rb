@@ -1,0 +1,2 @@
+class MathClass < ApplicationRecord
+end

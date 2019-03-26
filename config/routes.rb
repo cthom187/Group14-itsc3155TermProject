@@ -5,4 +5,5 @@ Rails.application.routes.draw do
   resources :mathclasses
   resources :compsciclasses
   
+
 end
